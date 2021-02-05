@@ -32,6 +32,10 @@ mosquitto_pub -h broker.emqx.io -t "/test" -m "this is test"
 5. check result
 
 ## use python code
-
+1. setup
+```
+pip install -r requirements.txt
+```
+2. run python code
 - subscriber [subscriber.py](./subscriber.py)
 - publisher [publisher.py](./publisher.py)
